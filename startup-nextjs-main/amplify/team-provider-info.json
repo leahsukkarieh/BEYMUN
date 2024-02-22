@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-beymun-dev-12331-authRole",
+      "UnauthRoleArn": "arn:aws:iam::590184117063:role/amplify-beymun-dev-12331-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::590184117063:role/amplify-beymun-dev-12331-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-beymun-dev-12331-deployment",
+      "UnauthRoleName": "amplify-beymun-dev-12331-unauthRole",
+      "StackName": "amplify-beymun-dev-12331",
+      "StackId": "arn:aws:cloudformation:eu-north-1:590184117063:stack/amplify-beymun-dev-12331/3a15e760-d110-11ee-b75e-06000f3d951f",
+      "AmplifyAppId": "d3vxdk89din8zk"
+    }
+  }
+}
