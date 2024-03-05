@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "This is the Privacy Policy Page",
+  description: "BEYMUN Privacy Policy",
 };
 
 const PrivacyPolicyPage = () => {

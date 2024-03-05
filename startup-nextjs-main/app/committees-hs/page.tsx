@@ -5,7 +5,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "High School Committees",
-  description: "This is the High School Committees Page",
+  description: "BEYMUN Committees for High School Delegates",
 };
 
 const hsCommitteesPage = () => {
@@ -20,7 +20,7 @@ const hsCommitteesPage = () => {
                 {hsCommitteeData.map((committee, index) => (
                 <div
                     key={committee.id}
-                    className={`px-4 h-1/3 mb-8 ${index !== hsCommitteeData.length - 1 ? 'border-b-2 border-gray-300' : ''}`}
+                    className={`px-4 h-1/3 mb-8 ${index !== hsCommitteeData.length - 1 ? 'border-b-2 border-gray-300' : ''} ${index === 0? 'mt-6' : ''}`}
                     style={{width: "85%"}}
                 >
                     <SingleCommittee committee={committee} />

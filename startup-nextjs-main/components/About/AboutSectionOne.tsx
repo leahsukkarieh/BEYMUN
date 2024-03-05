@@ -17,7 +17,7 @@ const AboutSectionOne = () => {
               </h1>
               <p 
                 className="text-base font-medium leading-relaxed text-black text-justify"
-                style={{fontFamily: "Libre Franklin, Helios Extended, sans-serif"}}
+                style={{fontFamily: "Libre Franklin, Helios Extended, sans-serif", padding: "0 1rem"}}
               >
                 BEYMUN is an annual Model United Nations conference held on the premises of the 
                 American University of Beirut (AUB). Its primary objectives are to foster a strong MUN culture, 
@@ -35,7 +35,7 @@ const AboutSectionOne = () => {
               </h1>
               <p 
                 className="text-base font-medium leading-relaxed text-black text-justify"
-                style={{fontFamily: "Libre Franklin, Helios Extended, sans-serif"}}
+                style={{fontFamily: "Libre Franklin, Helios Extended, sans-serif", padding: "0 1rem"}}
               >
                 BEYMUN aims to provide an inclusive and enriching platform for students to 
                 engage in diplomatic simulations, enhance their public speaking and negotiation skills, 

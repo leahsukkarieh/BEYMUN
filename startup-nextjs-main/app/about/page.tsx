@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "This is the About Page",
+  description: "BEYMUN Purpose, Mission, Values, and Teams",
 };
 
 const AboutPage = () => {

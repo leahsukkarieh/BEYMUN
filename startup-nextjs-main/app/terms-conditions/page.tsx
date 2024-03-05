@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms and Conditions",
-  description: "This is the Terms and Conditions Page",
+  description: "BEYMUN Terms and Conditions",
 };
 
 const TermsConditionsPage = () => {

@@ -7,7 +7,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Pricing",
-  description: "This is the Pricing Page",
+  description: "Packages, Scholarships, and Payment Instructions",
 };
 
 const PricingPage = () => {

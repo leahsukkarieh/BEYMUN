@@ -5,8 +5,8 @@ import { infoData } from "@/components/Info/infoData";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Useful Information",
-  description: "This is the Useful Information Page",
+  title: "FAQ",
+  description: "Frequently Asked Questions & Useful Information",
 };
 
 const InfoPage = () => {

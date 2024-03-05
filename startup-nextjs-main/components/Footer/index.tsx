@@ -10,7 +10,7 @@ const Footer = () => {
         data-wow-delay=".1s"
         style={{ fontFamily: 'Libre Franklin, Helios Extended, sans-serif' }}
       >
-        <div className="container w-full flex items-center">
+        <div className="container w-full flex items-center justify-center">
           <Link href="/" className="mb-8 inline-block">
             <Image
               src="/images/logo/logo.png"
@@ -24,10 +24,10 @@ const Footer = () => {
             className="w-full"
             style={{marginLeft: "10px"}}
           >
-            <h2 className="text-xl font-bold text-blue mb-2">
+            <h2 className="lg:text-xl md:text-lg sm:text-md font-bold text-blue mb-2">
               Contact Us
             </h2>
-            <p className="mb-9 text-base leading-relaxed text-black/80">beymun@aub.edu.lb</p>
+            <p className="mb-9 lg:text-base text-sm leading-relaxed text-black/80">beymun@aub.edu.lb</p>
             <div id='social-links' className="flex items-center">
               <a
                 href="https://www.instagram.com/beymunconference?igsh=MXRjanZsYTR2ZjJhag=="
@@ -104,7 +104,7 @@ const Footer = () => {
           <div className="flex flex-col items-center">
             <Link
               href='/terms-conditions'
-              className="font-medium text-blue underline whitespace-nowrap"
+              className="font-medium text-blue underline whitespace-nowrap text-sm lg:text-md"
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -112,7 +112,7 @@ const Footer = () => {
             </Link>
             <Link
               href='/privacy-policy'
-              className="font-medium text-blue underline mt-3"
+              className="font-medium text-blue underline mt-3 text-sm lg:text-md"
               target="_blank" 
               rel="noopener noreferrer"
             >

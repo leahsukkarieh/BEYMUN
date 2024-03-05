@@ -5,7 +5,7 @@ import { uniCommitteeData } from "@/components/Committees/uniCommitteesData";
 
 export const metadata: Metadata = {
   title: "University Committees",
-  description: "This is the University Committees Page",
+  description: "BEYMUN Committees for University Delegates",
 };
 
 const uniCommitteesPage = () => {

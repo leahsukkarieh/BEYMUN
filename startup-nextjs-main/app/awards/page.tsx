@@ -13,7 +13,7 @@ import { table6Data } from "@/components/Awards/table6Data";
 
 export const metadata: Metadata = {
   title: "Awards",
-  description: "This is the Awards Page",
+  description: "Awards and BEYMUN Recognition Guidelines",
 };
 
 const AwardsPage = () => {

@@ -32,7 +32,7 @@ const SchedulePage = () => {
         <ScheduleDayTwo />
       </div>
       <div 
-        className="container mx-auto px-20"
+        className="container mx-auto px-20 mb-8"
         style={{fontFamily: "Libre Franklin, Helios Extended, sans-serif"}}
       >
       <h2 className="text-lg font-semibold mb-4 text-blue">Monday, April 15</h2>
