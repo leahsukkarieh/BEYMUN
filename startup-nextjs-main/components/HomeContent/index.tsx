@@ -38,7 +38,7 @@ const HomeContent = () => {
                   </Link>
                   <div style={{marginLeft: 0}}>
                     <span 
-                      className="text-white font-medium text-center text-xl"
+                      className="text-white font-medium text-center text-xl md:text-lg sm:text-lg"
                       style={{ fontFamily: 'Libre Franklin, Helios Extended, sans-serif' }}
                     >
                       Learn about our
@@ -46,7 +46,7 @@ const HomeContent = () => {
                    <Link
                     href="/pricing#scholarships"
                     style={{ fontFamily: 'Libre Franklin, Helios Extended, sans-serif' }}
-                    className="px-2 py-4 mr-1 text-base text-center underline font-medium text-xl text-primary duration-300 ease-in-out hover:text-primary/80"
+                    className="px-2 py-4 mr-1 text-base text-center underline font-medium text-xl text-primary duration-300 ease-in-out hover:text-primary/80 md:text-lg sm:text-lg"
                   >
                     scholarship opportunities!
                   </Link> 

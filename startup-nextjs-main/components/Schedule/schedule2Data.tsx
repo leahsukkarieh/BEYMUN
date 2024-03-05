@@ -4,7 +4,7 @@ export const schedule2Data: Schedule[] = [
   {
     id: 1,
     time: "08:30 AM - 09:00 AM",
-    event: "Check-In",
+    event: "Check-in Starts",
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const schedule2Data: Schedule[] = [
   {
     id: 3,
     time: "09:30 AM - 12:00 PM",
-    event: "Session 1",
+    event: "Session 4",
   },
   {
     id: 4,
@@ -24,21 +24,21 @@ export const schedule2Data: Schedule[] = [
   {
     id: 5,
     time: "01:30 PM - 04:00 PM",
-    event: "Session 2",
+    event: "Session 5",
   },
   {
     id: 6,
     time: "04:00 PM - 04:30 PM",
-    event: "Coffee Break",
+    event: "Coffee and Snacks, Networking, Socializing",
   },
   {
     id: 7,
-    time: "04:30 PM - 06:30 PM",
-    event: "Session 3",
+    time: "04:30 PM - 06:00 PM",
+    event: "Session 6",
   },
   {
     id: 8,
-    time: "07:00 PM - 09:00 PM",
+    time: "06:00 PM - 09:00 PM",
     event: "Social Night and Dinner",
   },
 ];

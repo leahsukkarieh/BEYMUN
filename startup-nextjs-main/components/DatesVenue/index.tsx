@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import SectionTitle from "../Common/SectionTitle";
 
 const DatesVenue = () => {
-  const targetDate = new Date('2024-01-19T23:59:59');
+  const targetDate = new Date('2024-04-12T23:59:59');
 
   const calculateTimeRemaining = () => {
     const now = new Date();
@@ -44,7 +44,7 @@ const DatesVenue = () => {
           >
           <SectionTitle
             title="Dates & Venue"
-            paragraph="Join us on the American University of Beirut (AUB) Campus. Exact dates will be announced soon!"
+            paragraph="Join us on the American University of Beirut (AUB) Campus on April 13, 14 and 15!"
             center
           />
           <div className='flex flex-col justify-center items-center'>
