@@ -153,7 +153,9 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
-                  href="/register"
+                  href="https://forms.gle/6ey6vjWWZUfADoySA"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{ fontFamily: 'Libre Franklin, Helios Extended, sans-serif' }}
                   className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-bold text-red transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
                 >

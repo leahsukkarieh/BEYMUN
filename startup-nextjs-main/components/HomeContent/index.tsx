@@ -28,7 +28,9 @@ const HomeContent = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="/register"
+                    href="https://forms.gle/6ey6vjWWZUfADoySA"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ fontFamily: 'Libre Franklin, Helios Extended, sans-serif' }}
                     className="rounded-sm bg-primary mb-8 px-8 py-4 text-base font-semibold text-red duration-300 ease-in-out hover:bg-primary/80"
                   >

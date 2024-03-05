@@ -20,7 +20,7 @@ export const infoData: FAQ[] = [
     id: 4,
     question: "How do I register for BEYMUN?",
     answer: "To register for the 2024 conference, you can complete the online registration form by accessing the link",
-    link: '/register',
+    link: 'https://forms.gle/6ey6vjWWZUfADoySA',
   },
   {
     id: 5,

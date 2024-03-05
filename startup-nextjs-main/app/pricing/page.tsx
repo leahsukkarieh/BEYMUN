@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Packages from "@/components/Pricing/Packages";
+import PaymentInstructions from "@/components/Pricing/PaymentInstructions";
 import Scholarships from "@/components/Pricing/Scholarships";
 
 import { Metadata } from "next";
@@ -18,6 +19,7 @@ const PricingPage = () => {
       />
       <Packages />
       <Scholarships />
+      <PaymentInstructions />
     </>
   );
 };

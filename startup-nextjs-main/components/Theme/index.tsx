@@ -17,7 +17,7 @@ const Theme = () => {
           />
           <div 
                 className='flex flex-col justify-center items-center'
-            >      
+          >      
             <video controls autoPlay loop style={{width: "100%", height: "100%"}}>
                 <source src="/phoenix-blue.mp4" type="video/mp4" />
                 Your browser does not support this content type.
