@@ -4,7 +4,7 @@ const finSponsorData: Member[] = [
   {
     id: 1,
     name: "Elias Calfat",
-    position: 'Under-Secretary-General (USG) of Finance & Soponsorship',
+    position: 'Under-Secretary-General (USG) of Finance & Sponsorship',
     image: '/images/member/finSponsor/eliascalfat.jpg',
   },
   {
