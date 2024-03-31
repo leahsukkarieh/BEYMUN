@@ -1,7 +1,7 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import SingleCommittee from "@/components/Committees/SingleCommittee";
 import { Metadata } from "next";
-import { uniCommitteeData } from "@/components/Committees/uniCommitteesData";
+import { uniCommitteeData } from "@/components/Committees/uniCommittees/uniCommitteesData";
 
 export const metadata: Metadata = {
   title: "University Committees",

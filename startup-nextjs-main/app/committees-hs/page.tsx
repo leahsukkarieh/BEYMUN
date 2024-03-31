@@ -1,6 +1,6 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import SingleCommittee from "@/components/Committees/SingleCommittee";
-import hsCommitteeData from "@/components/Committees/hsCommitteeData";
+import hsCommitteeData from "@/components/Committees/hsCommittees/hsCommitteeData";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

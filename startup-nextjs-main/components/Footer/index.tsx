@@ -101,24 +101,6 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-center">
-            <Link
-              href='/terms-conditions'
-              className="font-medium text-blue underline whitespace-nowrap text-sm lg:text-md"
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              Terms and Conditions
-            </Link>
-            <Link
-              href='/privacy-policy'
-              className="font-medium text-blue underline mt-3 text-sm lg:text-md"
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              Privacy Policy
-            </Link>
-          </div>
         </div>
         <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent mt-5"></div>
           <div className="py-4 flex justify-center items-center">
@@ -127,6 +109,27 @@ const Footer = () => {
             </div>
             <p className="text-center text-base text-body-color">
               BEYMUN 2024 | All Rights Reserved
+            </p>
+          </div>
+          <div className="flex justify-center items-center">
+            <p className="text-center text-base text-body-color">Please read our{" "} 
+              <Link
+                href='/terms-conditions'
+                className="font-medium text-blue underline whitespace-nowrap"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Terms of Use
+              </Link>
+              {" "}and{" "}
+              <Link
+                href='/privacy-policy'
+                className="font-medium text-blue underline mt-3"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Privacy Policy
+              </Link>
             </p>
           </div>
       </footer>

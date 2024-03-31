@@ -1,5 +1,4 @@
 import { Member } from "@/types/member";
-import Image from "next/image";
 
 const SingleMember = ({ member }: { member: Member }) => {
   const { name, position, image} = member;
@@ -11,12 +10,11 @@ const SingleMember = ({ member }: { member: Member }) => {
         data-wow-delay=".1s"
         style={{display: "flex", flexDirection: "column", alignItems: "center"}}
       >
-        <Image 
+        <img 
             src={imageSrc} 
             alt="image" 
             className="block aspect-[37/22]"
             style={{position: "relative", width: "220px", height: "220px", marginTop: "20px"}}
-            fill 
         />
         <div className="mt-4 mb-4 flex flex-col items-center justify-center">
           <h3 
