@@ -30,6 +30,13 @@ const hsCommitteeData: Committee[] = [
     image: '/images/committees/hs/cstd.webp',
   },
   {
+    id: 8,
+    name: "First Committee of the General Assembly",
+    topic: "Addressing Comprehensive Measures for Nuclear Disarmament",
+    description: 'Also known as the Disarmament and International Security Committee (DISEC), the first committee of the general assembly addresses arms control, international security issues and disarmament. The topic of nuclear disarmament will expand on topics such as emerging technologies, nuclear arms control agreements as well as the analysis of crisis management and risk reduction.',
+    image: '/images/committees/hs/disec.png',
+  },
+  {
     id: 5,
     name: "Third Committee of the General Assembly",
     topic: "Addressing Unique Challenges Faced by Refuge Children",
