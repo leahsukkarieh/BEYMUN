@@ -4,7 +4,7 @@ export const table6Data: Table[] = [
   {
     id: 1,
     criteria: "Knowledgeable",
-    description: "Knowledgeable	Displays a good understanding of committee topics and relevant issues.",
+    description: "Displays a good understanding of committee topics and relevant issues.",
     scale: "",
   },
   {

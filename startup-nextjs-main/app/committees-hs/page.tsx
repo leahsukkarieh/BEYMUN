@@ -16,14 +16,13 @@ const hsCommitteesPage = () => {
             description=""
         />
         <section>
-            <div className="container flex-flex-col">
+            <div className="container flex-flex-col items-center">
                 {hsCommitteeData.map((committee, index) => (
                 <div
-                    key={committee.id}
-                    className={`px-4 h-1/3 mb-8 ${index !== hsCommitteeData.length - 1 ? 'border-b-2 border-gray-300' : ''} ${index === 0? 'mt-6' : ''}`}
-                    style={{width: "85%"}}
+                  key={committee.id}
+                  className={`px-4 h-1/3 w-full md:w-5/6 mb-8 ${index !== hsCommitteeData.length - 1 ? 'border-b-2 border-gray-300' : ''} ${index === 0? 'mt-6' : ''}`}
                 >
-                    <SingleCommittee committee={committee} />
+                  <SingleCommittee committee={committee} />
                 </div>
                 ))} 
             </div>

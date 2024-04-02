@@ -3,10 +3,10 @@ import pricingData from "./pricingData";
 
 const Packages = () => {
   return (
-    <section id="packages">
+    <section id="packages" className="py-16 md:py-20 lg:py-28">
       <div 
         className="container"
-        style={{padding: '60px 60px 20px 60px'}}
+        // style={{padding: '60px 60px 20px 60px'}}
       >
         <div className="border-b-2 border-blue pb-10">
           <div className="flex flex-col items-center">

@@ -7,7 +7,7 @@ const Scholarships = () => {
     <div className="container h-full">
       <div className="h-full border-b-2 border-blue pb-5">
         <div className="-mx-4 flex flex-col items-center justify-center">
-            <div className="mb-8 mt-8 md:mb-0 lg:mb-12">
+            <div className="mb-8 mt-8 md:mb-0 lg:mb-12 ml-4 md:ml-0 mr-4 md:mr-0">
             <h1 
               className="mb-5 text-2xl font-bold text-blue sm:text-3xl text-center"
               style={{fontFamily: "Libre Franklin, Helios Extended, sans-serif"}}

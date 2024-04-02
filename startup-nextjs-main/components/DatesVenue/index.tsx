@@ -50,11 +50,11 @@ const DatesVenue = () => {
           <div className='flex flex-col justify-center items-center'>
             <div className='flex'>
               <div
-                className="wow fadeInUp hover:shadow-two group relative overflow-hidden rounded bg-gray-200 bg-opacity-75 shadow-one duration-300"
+                className="wow fadeInUp hover:shadow-two group relative overflow-hidden rounded bg-gray-200 bg-opacity-75 shadow-one duration-300 p-5 md:p-8"
                 data-wow-delay=".1s"
-                style={{padding: "30px", marginRight:"6px", width: "27%"}}
+                style={{marginRight:"6px", width: "27%"}}
               >
-                <p className="text-center font-semibold text-3xl text-red">
+                <p className="text-center font-semibold text-2xl md:text-3xl text-red">
                   {countdown.days}
                 </p> 
                 <p className="text-center font-normal text-sm">
@@ -62,11 +62,11 @@ const DatesVenue = () => {
                 </p>
               </div>
               <div
-                className="wow fadeInUp hover:shadow-two group relative overflow-hidden rounded bg-gray-200 bg-opacity-75 shadow-one duration-300"
+                className="wow fadeInUp hover:shadow-two group relative overflow-hidden rounded bg-gray-200 bg-opacity-75 shadow-one duration-300 p-5 md:p-8"
                 data-wow-delay=".1s"
-                style={{padding: "30px", marginRight:"6px", width: "27%"}}
+                style={{marginRight:"6px", width: "27%"}}
               >
-                <p className="text-center font-semibold text-3xl text-red">
+                <p className="text-center font-semibold text-2xl md:text-3xl text-red">
                   {countdown.hours}
                 </p> 
                 <p className="text-center font-normal text-sm">
@@ -74,11 +74,11 @@ const DatesVenue = () => {
                 </p>
               </div>
               <div
-                className="wow fadeInUp hover:shadow-two group relative overflow-hidden rounded bg-gray-200 bg-opacity-75 shadow-one duration-300"
+                className="wow fadeInUp hover:shadow-two group relative overflow-hidden rounded bg-gray-200 bg-opacity-75 shadow-one duration-300 p-5 md:p-8"
                 data-wow-delay=".1s"
-                style={{padding: "30px", marginRight:"6px", width: "27%"}}
+                style={{marginRight:"6px", width: "27%"}}
               >
-                <p className="text-center font-semibold text-3xl text-red">
+                <p className="text-center font-semibold text-2xl md:text-3xl text-red">
                   {countdown.minutes}
                 </p> 
                 <p className="text-center font-normal text-sm">
@@ -86,11 +86,11 @@ const DatesVenue = () => {
                 </p>
               </div>
               <div
-                className="wow fadeInUp hover:shadow-two group relative overflow-hidden rounded bg-gray-200 bg-opacity-75 shadow-one duration-300"
+                className="wow fadeInUp hover:shadow-two group relative overflow-hidden rounded bg-gray-200 bg-opacity-75 shadow-one duration-300 p-5 md:p-8"
                 data-wow-delay=".1s"
-                style={{padding: "30px", marginRight:"6px", width: "27%"}}
+                style={{marginRight:"6px", width: "27%"}}
               >
-                <p className="text-center font-semibold text-3xl text-red">
+                <p className="text-center font-semibold text-2xl md:text-3xl text-red">
                   {countdown.seconds}
                 </p> 
                 <p className="text-center font-normal text-sm">
